@@ -4,7 +4,7 @@ let mm = process.env.MENTION_AUDIO;
 global.mentionaudio = mm.split(",");
 global.owner = oo.split(",");
 module.exports = {
-  mongodb: process.env.MONGODB_URL || "",
+  mongodb: process.env.MONGODB_URL || "mongodb+srv://Mongo:lionorwot @cluster0.axxm9xq.mongodb.net//",
   BOT_INFO: process.env.BOT_INFO || "X-BOT-MD;Aswin Sparky;https://graph.org/file/9b477aaa6b90bbb46e4be.mp4",
   STICKER_DATA: process.env.STICKER_DATA || "X-BOTMD;ASWIN SPARKY",
   SESSION_ID: process.env.SESSION_ID || "X-BOT-MD:WeirdoPlanted
